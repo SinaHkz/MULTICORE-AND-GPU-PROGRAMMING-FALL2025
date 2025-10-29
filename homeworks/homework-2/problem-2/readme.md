@@ -89,3 +89,18 @@ Document how each modification affects performance and correctness.
 * Consider using **thread-local storage** for better scalability.
 * Ensure reproducibility by controlling random seeds per thread.
 * Comment code thoroughly and justify design decisions in your report.
+
+
+## Ethics & Academic Integrity
+
+This homework must reflect **your own work**. While discussions with classmates about general concepts are encouraged, all submitted code, scripts, reports, and analysis must be authored individually.  
+
+- **Do not copy** solutions, scripts, or reports from other students, online sources, or prior years.  
+- **Do not share** your own completed solutions with others before the submission deadline.  
+- **Always cite** external sources (papers, documentation, tutorials) if you use them to inform your work.  
+- **Profiling results must be your own.** Running the provided program and collecting data on your own machine is part of the assignment; submitting fabricated or borrowed results is considered misconduct.  
+
+Violations will be treated as academic dishonesty and handled according to university policy.  
+
+> When in doubt: ask questions, collaborate conceptually, but write and submit your **own independent work**.
+

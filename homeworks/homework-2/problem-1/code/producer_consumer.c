@@ -35,7 +35,7 @@ void* producer(void* arg) {
         buffer[in] = item;
         in = (in + 1) % BUFFER_SIZE;
         count++;
-        printf("Producer %d produced %d\n", id, item, count);
+        printf("Producer %d produced %d\n", id, item);
 
         pthread_mutex_unlock(&mutex);
         // Signal that buffer is not empty
@@ -64,7 +64,7 @@ void* consumer(void* arg) {
         out = (out + 1) % BUFFER_SIZE;
         count--;
         sleep(1);  // A small delay to simulate processing time for the item
-        printf("Consumer %d consumed %d\n", id, item, count);
+        printf("Consumer %d consumed %d\n", id, item);
 
         pthread_mutex_unlock(&mutex);
         // Signal that buffer is not full
