@@ -1,4 +1,6 @@
 # Introduction to CUDA: Block-Based Image Coloring
+**Prepared & Supported by:**  Raha Rahmanian  
+**Due date:** December 18, 2025
 
 ## Objective
 
@@ -38,7 +40,7 @@ Your program must work for **any N**, for example:
 
 You must **not assume N is divisible by your block dimensions**.
 
----
+
 
 ## Part 2 - Block size experiments
 In the second part of this assignment, you are required to experiment with different block sizes and observe how block configuration affects the generated image.
@@ -69,7 +71,7 @@ Visual:
 
 Each row has its own color.
 
----
+
 
 **Strategy B — One column per block**
 - Block size: `N × 1`

@@ -1,6 +1,6 @@
 # HW3-Masked Computation
 **Prepared & Supported by:**  Raha Rahmanian  
-**Due date:** 16 December 2025
+**Due date:** December 18, 2025
 ## Problem Overview
 In this assignment, you will implement a CUDA kernel that applies a simple conditional transformation to an input array and investigate how GPU execution behavior and block size affects performance.
 ## Task
@@ -11,7 +11,7 @@ Compute the output array **B** as:
     B[i] = A[i] * 10   if A[i] is even
     B[i] = A[i]        if A[i] is odd
 
-------------------------------------------------------------------------
+
 
 ## Part 1 - Baseline Implementation
 
@@ -26,7 +26,7 @@ Compute the output array **B** as:
         branches
       -   Explain how it effects performance 
 
-------------------------------------------------------------------------
+
 
 ## Part 2 - Eliminating the issue
 Rewrite the GPU kernel so that the previous issue is eliminated without changing the mathematical operation.
@@ -41,7 +41,7 @@ even indices**, or
 1. Profile again and compare your results to Part 1.
 2. Explain why the new indexing avoids the issue.
 
-------------------------------------------------------------------------
+
 
 ## Part 3 - Block Size Performance Comparison
 
